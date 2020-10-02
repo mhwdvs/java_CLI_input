@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.function.Predicate;
 
 /**
- * Change Class
+ * Input Class
  * @author Matthew Davis
  * Date: 3/9/2020
  * File name: Input.java
@@ -12,7 +12,7 @@ import java.util.function.Predicate;
  * Assumptions:
  * - System.in InputStream should be used for user input
  */
-public class Input {
+public class RegexInput {
     static Scanner inputStream = new Scanner(System.in);
     
     /**
