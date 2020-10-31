@@ -16,6 +16,9 @@ import java.util.IllegalFormatException;
 public class StandardInput{
     static Scanner inputStream = new Scanner(System.in);
 
+    /**
+     * Runs unit tests on class methods
+     */
     public static void main(String[] args){
         inputStream = new Scanner("asd asd\nasd\n");
         assert word().equals("asd");
@@ -29,6 +32,9 @@ public class StandardInput{
         
     }
     
+    /**
+     * Gets integer input from a user
+     */
     public static int integer(){
         int input = 0;
         boolean badInput = true;
@@ -108,6 +114,9 @@ public class StandardInput{
         return res;
     }
     
+    /**
+     * Counts the number of a specific character in a string
+     */
     private static int countChars(String inc, char target){
         char[] chars = inc.toCharArray();
         int count = 0;
